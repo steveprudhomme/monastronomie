@@ -29,8 +29,8 @@ J'utilise pour mes journaux d'observation, le logiciel GNU Emacs, avec le mode o
 1.  .emacs
 
     Ajouter ces éléments de configuration dans votre .emacs.
-    
-    {% highlight elisp %}
+
+```elisp
     ;; Afin de pouvoir installer le convertisseur Org-mode à MD ox-md
     
     (require 'package)
@@ -106,4 +106,4 @@ J'utilise pour mes journaux d'observation, le logiciel GNU Emacs, avec le mode o
      ;; Your init file should contain only one such instance.
      ;; If there is more than one, they won't work right.
      )
-    {% endhighlight %}
+```
