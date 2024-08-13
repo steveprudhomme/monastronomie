@@ -61,7 +61,7 @@ J'utilise pour mes journaux d'observation, le logiciel GNU Emacs, avec le mode o
     
         
 		Ajouter ces éléments de configuration dans votre .emacs.
-        ```
+```
             ;; Afin de pouvoir installer le convertisseur Org-mode à MD ox-md
             
             (require 'package)
@@ -138,6 +138,7 @@ J'utilise pour mes journaux d'observation, le logiciel GNU Emacs, avec le mode o
              ;; If there is more than one, they won't work right.
              )
 ```
+
 2.  Export en MD (Markdown languge) pour Github
 
     J'ai installé le package ox-md
